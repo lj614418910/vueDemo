@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div>{{count}}</div>
-    <botton @click="increment">+</botton>
+    <button @click="increment" >+</button>
   </div>
 </template>
 
@@ -23,12 +23,17 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
+  button{
+    background: #fff;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 30%;
+  }
 </style>
